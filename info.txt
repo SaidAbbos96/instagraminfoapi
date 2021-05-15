@@ -1,0 +1,17 @@
+heroku run bash -a im-python-sellenium
+
+
+heroku git:remote -a im-insta-api
+
+git push heroku master
+
+heroku run python app.py
+
+
+https://github.com/heroku/heroku-buildpack-google-chrome
+https://github.com/heroku/heroku-buildpack-chromedriver
+
+CHROMEDRIVER_PATH = /app/.chromedriver/bin/chromedriver
+
+
+im-insta-api heroku
